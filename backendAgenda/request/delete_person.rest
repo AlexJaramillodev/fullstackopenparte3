@@ -1,0 +1,1 @@
+DELETE https://backendagenda.fly.dev/api/persons/672aa07e7387e0235dc1c341

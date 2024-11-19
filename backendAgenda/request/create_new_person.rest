@@ -1,0 +1,7 @@
+POST https://backendagenda.fly.dev/api/persons
+Content-Type: application/json
+
+{
+    "name": "juanito alimaña",
+    "number": "7893321564"
+}

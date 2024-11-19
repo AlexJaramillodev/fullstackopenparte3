@@ -1,0 +1,7 @@
+PUT https://backendagenda.fly.dev/api/persons/672aa319024de95315c5d62d
+Content-Type: application/json
+
+{
+    "name": "juan fernando martinez",
+    "number": "5151515151"
+}

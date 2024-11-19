@@ -1,0 +1,136 @@
+GET /api/persons 200 223 - 11.326 ms
+DELETE /api/persons/4 204 - - 0.682 ms
+DELETE /api/persons/3 204 - - 0.225 ms
+POST /api/persons 200 60 - 25.129 ms
+POST /api/persons 200 60 - 6.846 ms {"name":"Juanita vargas","number":"456788908543"}
+POST /api/persons 200 53 - 0.627 ms {"name":"Jhon Doe","number":"90876578942"}
+GET /api/notes 404 148 - 2.377 ms {}
+GET /api/persons 200 338 - 1.392 ms {}
+GET /favicon.ico 404 150 - 1.379 ms {}
+GET /persons 404 146 - 7.013 ms {}
+GET /api/persons 200 223 - 8.679 ms {}
+GET /api/persons 200 223 - 1.683 ms {}
+GET /api/persons 200 223 - 0.479 ms {}
+GET /api/persons 200 223 - 0.689 ms {}
+GET /api/persons 200 223 - 0.831 ms {}
+GET /api/persons 200 223 - 0.667 ms {}
+GET /api/persons 200 223 - 0.683 ms {}
+GET /api/persons 200 223 - 0.577 ms {}
+GET /api/persons 200 223 - 6.378 ms {}
+GET /api/persons 304 - - 5.154 ms {}
+GET /api/notes 404 148 - 4.586 ms {}
+GET /api/persons 304 - - 4.918 ms {}
+GET /vite.svg 404 147 - 0.715 ms {}
+GET /api/persons 304 - - 0.380 ms {}
+GET /api/persons 304 - - 0.387 ms {}
+GET /api/persons 200 223 - 4.059 ms {}
+GET /api/persons 304 - - 0.670 ms {}
+GET /api/persons 304 - - 6.135 ms {}
+GET /vite.svg 404 147 - 3.727 ms {}
+GET /api/persons 304 - - 0.887 ms {}
+GET /api/persons 304 - - 0.613 ms {}
+GET /api/persons 200 223 - 4.052 ms {}
+POST /api/persons 200 52 - 1.065 ms {"name":"Jhon Doe","number":"90876578942"}
+GET /api/persons 200 311 - 242.025 ms {}
+GET /favicon.ico 404 150 - 3.596 ms {}
+GET /api/persons 304 - - 1090.783 ms {}
+::1 - - [02/Nov/2024:14:39:18 +0000] "GET /api/persons HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+GET /api/persons 304 - - 280.942 ms {}
+::1 - - [02/Nov/2024:14:39:27 +0000] "GET /api/persons HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+GET /api/persons 304 - - 310.554 ms {}
+::1 - - [02/Nov/2024:14:50:49 +0000] "GET /api/persons HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+GET /api/persons 200 393 - 123.688 ms {}
+::1 - - [02/Nov/2024:15:31:56 +0000] "GET /api/persons HTTP/1.1" 200 393 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+GET /api/persons 200 469 - 221.450 ms {}
+::1 - - [02/Nov/2024:15:40:35 +0000] "GET /api/persons HTTP/1.1" 200 469 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+GET /api/persons 200 548 - 150.055 ms {}
+GET /api/persons 200 548 - 155.787 ms {}
+GET /api/persons 304 - - 152.379 ms {}
+GET /api/persons 304 - - 217.400 ms {}
+GET /api/persons 200 627 - 161.873 ms {}
+GET /favicon.ico 404 150 - 3.764 ms {}
+GET /api/persons 304 - - 151.840 ms {}
+GET /api/persons 304 - - 276.933 ms {}
+GET /api/persons 304 - - 183.107 ms {}
+GET /api/persons 200 557 - 146.062 ms {}
+GET /favicon.ico 404 150 - 1.354 ms {}
+GET /info 500 1682 - 1.105 ms {}
+GET /info 200 137 - 2.209 ms {}
+GET /info 200 137 - 1.786 ms {}
+GET /info 200 137 - 0.423 ms {}
+GET /info 200 137 - 0.280 ms {}
+GET /info 200 137 - 0.255 ms {}
+GET /info 200 149 - 177.983 ms {}
+GET /info 200 149 - 149.190 ms {}
+GET /api/persons 304 - - 126.567 ms {}
+GET /api/persons 200 557 - 134.979 ms {}
+POST /api/persons 200 78 - 208.309 ms {"name":"pedro perez","number":"180000234569"}
+GET /api/persons 200 636 - 163.642 ms {}
+GET /api/persons 304 - - 130.639 ms {}
+DELETE /api/persons/672b58bb10b31d5e6536d820 204 - - 181.135 ms {}
+GET /api/persons 304 - - 212.471 ms {}
+DELETE /api/persons/672647fbba9510e1c6405a73 204 - - 170.455 ms {}
+GET /api/persons 200 481 - 175.029 ms {}
+POST /api/persons 200 83 - 192.828 ms {"name":"pablo picasso","number":"111111111111111"}
+PUT /api/persons/672b5ea93e267ad7cd155210 200 82 - 186.098 ms {"name":"pablo picasso","number":"99999999999999","id":"672b5ea93e267ad7cd155210"}
+GET /api/persons 200 564 - 170.501 ms {}
+PUT /api/persons/672532014bb31ae5d7c6ba5e 200 81 - 189.550 ms {"name":"adrian jaramillo","number":"9876254698","id":"672532014bb31ae5d7c6ba5e"}
+GET /api/persons 200 564 - 130.888 ms {}
+DELETE /api/persons/672b5ea93e267ad7cd155210 204 - - 290.299 ms {}
+POST /api/persons 200 78 - 281.837 ms {"name":"gonzalo perez","number":"0000000000"}
+PUT /api/persons/672532014bb31ae5d7c6ba5e 200 84 - 122.734 ms {"name":"adrian jaramillo","number":"6666666666666","id":"672532014bb31ae5d7c6ba5e"}
+GET /api/persons 200 563 - 193.426 ms {}
+GET /favicon.ico 400 27 - 2.974 ms {}
+GET /api/persons/6666666666666 400 27 - 5.755 ms {}
+GET /favicon.ico 400 27 - 2.758 ms {}
+GET /api/persons/1234 400 27 - 20.282 ms {}
+GET /favicon.ico 400 27 - 2.532 ms {}
+GET /api/persons/672532014bb31ae5d7c6ba5e 200 84 - 395.067 ms {}
+GET /favicon.ico 400 27 - 1.990 ms {}
+DELETE /api/persons/672532014bb31ae5d7c6ba5e 204 - - 137.888 ms {}
+GET /api/persons/672532014bb31ae5d7c6ba5e 404 31 - 184.922 ms {}
+GET /favicon.ico 400 27 - 2.268 ms {}
+GET /info 200 149 - 228.132 ms {}
+GET /favicon.ico 400 27 - 3.226 ms {}
+GET /api/persons 200 478 - 386.333 ms {}
+GET /favicon.ico 400 27 - 2.147 ms {}
+GET /api/persons/672532014bb31ae5d7c6ba5e 404 31 - 234.509 ms {}
+GET /favicon.ico 400 27 - 2.442 ms {}
+GET /api/persons/672ca343a6c168dc98103d35 200 78 - 180.161 ms {}
+GET /favicon.ico 400 27 - 3.053 ms {}
+GET /api/persons 200 478 - 103.862 ms {}
+POST /api/persons 400 92 - 23.422 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.510 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.047 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.241 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.374 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.301 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.354 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.129 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.245 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.983 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 5.006 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.551 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.757 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.904 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.430 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 3.652 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 400 92 - 4.465 ms {"name":"ricardo rico","number":"12345667890"}
+POST /api/persons 200 80 - 107.047 ms {"name":"ricardo rico","number":"123-563221564"}
+POST /api/persons 400 91 - 3.557 ms {"name":"carolina roldan","number":"6778904533"}
+POST /api/persons 400 91 - 4.484 ms {"name":"carolina roldan","number":"6778904533"}
+POST /api/persons 400 91 - 4.302 ms {"name":"carolina roldan","number":"6778904533"}
+GET /api/persons 200 559 - 95.423 ms {}
+POST /api/persons 400 91 - 3.339 ms {"name":"carolina roldan","number":"6778904533"}
+GET /api/persons 200 559 - 78.150 ms {}
+POST /api/persons 200 82 - 119.122 ms {"name":"carolina roldan","number":"123-98653214"}
+GET /api/persons 200 642 - 302.575 ms {}
+POST /api/persons 400 165 - 29.542 ms {"name":"ad","number":"2345678989"}
+GET /api/persons 304 - - 186.539 ms {}
+GET /api/persons 304 - - 434.260 ms {}
+POST /api/persons 400 165 - 4.118 ms {"name":"ad","number":"2345678989"}
+GET /api/persons 304 - - 116.672 ms {}
+POST /api/persons 400 91 - 5.492 ms {"name":"eduardo rios","number":"2345678989"}
+POST /api/persons 400 91 - 4.185 ms {"name":"eduardo rios","number":"2345678989"}
+POST /api/persons 400 90 - 4.607 ms {"name":"nicanor restrepo","number":"1-2365489"}
+POST /api/persons 200 82 - 227.726 ms {"name":"nicanor restrepo","number":"12-34567890"}

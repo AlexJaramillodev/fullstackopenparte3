@@ -1,0 +1,39 @@
+{
+  "name": "fullstackopenparte3",
+  "version": "1.0.0",
+  "description": "node y express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ui": "rm -rf dist && cd ../phonebook/ && npm run build && cp -r dist ../backendAgenda",
+    "deploy": "fly deploy",
+    "deploy:full": "npm run build:ui && npm run deploy",
+    "logs:prod": "fly logs",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "express"
+  ],
+  "author": "adrian jaramillo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@flydotio/dockerfile": "^0.5.9",
+    "@stylistic/eslint-plugin-js": "^2.10.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7"
+  }
+}
